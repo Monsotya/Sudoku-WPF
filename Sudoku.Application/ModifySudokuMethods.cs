@@ -2,7 +2,11 @@
 
 namespace Sudoku.Application
 {
-    public class Class1
+    public class ModifySudokuMethods
     {
+        public void Transpose()
+        {
+
+        }
     }
 }
