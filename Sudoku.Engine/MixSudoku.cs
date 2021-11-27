@@ -2,22 +2,27 @@
 
 namespace Sudoku.Engine
 {
-    public class MixSudoku
+    internal class MixSudoku
     {
-        public void Transpose(int[][] matrix)
+        internal int[][] Transpose(int[][] matrix)
         {
+            return matrix;
         }
-		public void SwapRows(int[][] matrix)
+        internal int[][] SwapRows(int[][] matrix)
 		{
-		}
-        public void SwapColumns(int[][] matrix)
-        {
+            return matrix;
         }
-        public void SwapRowAreas(int[][] matrix)
+        internal int[][] SwapColumns(int[][] matrix)
         {
+            return matrix;
         }
-        public void SwapColumnAreas(int[][] matrix)
+        internal int[][] SwapRowAreas(int[][] matrix)
         {
+            return matrix;
+        }
+        internal int[][] SwapColumnAreas(int[][] matrix)
+        {
+            return matrix;
         }
     }
 }

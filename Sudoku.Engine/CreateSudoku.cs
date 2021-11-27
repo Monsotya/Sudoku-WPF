@@ -8,7 +8,7 @@ namespace Sudoku.Engine
         {
         }
 
-        public void DeleteCells()
+        internal void DeleteCells(int complexity)
         {
         }
     }
