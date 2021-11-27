@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sudoku.Application
+namespace Sudoku.Engine
 {
     public class CreateSudoku
     {
