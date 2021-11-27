@@ -8,6 +8,10 @@ namespace Sudoku.Engine
         {
             return matrix;
         }
+        internal int[][] SwapRows(int[][] matrix)
+        {
+            return matrix;
+        }
         internal int[][] SwapColumns(int[][] matrix)
         {
             return matrix;
